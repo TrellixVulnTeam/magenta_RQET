@@ -66,50 +66,13 @@ main{
  }
 
  /*main de servicios*/
-.servis{
-    display: block;
-   
+.row-cols-2{
+  padding: 5px;
+  margin: 5px;
+ 
 
 }
-.t1 {
-   background-color: white;
-   box-shadow: 4px 4px 4px 4px gray;
-   margin:10px;
-    
-}
-.t2{
-    background-color: white;
-    box-shadow: 4px 4px 4px 4px gray;
-    margin: 10px;
-}
-.t3{
-    background-color: white;
-    box-shadow: 4px 4px 4px 4px gray;
-    margin: 10px;
 
-}
-.t4{
-    background-color: white;
-    box-shadow: 4px 4px 4px 4px gray;
-    margin: 10px;
-}
-
-footer{
-    grid-area: footer;
-    background-color: rgb(206, 200, 200);
-    text-align: center;
-    margin-bottom: 2px;
-}
-h3{
-    text-align: center;
-    border-bottom: 3px;
-}
-/*main de nosotros*/
-
-p{
-   margin: 2px ;
-   padding: auto;
-}
 /*main de contacto*/
 label {
     display:block;
@@ -162,6 +125,24 @@ textarea {
     margin-top:20px;
     cursor:pointer;
 }
+
+footer{
+    grid-area: footer;
+    background-color: rgb(206, 200, 200);
+    text-align: center;
+    margin-bottom: 2px;
+}
+h3{
+    text-align: center;
+    border-bottom: 3px;
+}
+
+
+
+
+
+
+
  
 @media (min-width: 768px){
 
