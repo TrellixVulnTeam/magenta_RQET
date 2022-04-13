@@ -1,0 +1,9 @@
+
+
+body{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 20vh 40vh 20vh ;
+    grid-template-areas: "header" "nav""main" "footer";
+}
