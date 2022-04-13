@@ -10,7 +10,7 @@ body{
 
 header{
     grid-area:header;
-    background-color: rgb(238, 231, 231);
+    background-color:white;
 
 }
 nav{
