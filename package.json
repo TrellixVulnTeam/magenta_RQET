@@ -1,10 +1,7 @@
 {
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
-  },
   "name": "magenta",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -289,9 +286,12 @@
     "yargs": "^17.4.0",
     "yargs-parser": "^20.2.9"
   },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -302,6 +302,5 @@
   "bugs": {
     "url": "https://github.com/carlitamorello/magenta/issues"
   },
-  "homepage": "https://github.com/carlitamorello/magenta#readme",
-  "description": ""
+  "homepage": "https://github.com/carlitamorello/magenta#readme"
 }
